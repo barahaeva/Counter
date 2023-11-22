@@ -16,7 +16,6 @@
 		9AF5B62D2B0523E400FD13E9 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B62C2B0523E400FD13E9 /* CounterTests.swift */; };
 		9AF5B6372B0523E400FD13E9 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B6362B0523E400FD13E9 /* CounterUITests.swift */; };
 		9AF5B6392B0523E400FD13E9 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B6382B0523E400FD13E9 /* CounterUITestsLaunchTests.swift */; };
-		9AF5B6462B05260000FD13E9 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5B6452B05260000FD13E9 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		9AF5B6322B0523E400FD13E9 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF5B6362B0523E400FD13E9 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		9AF5B6382B0523E400FD13E9 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9AF5B6452B05260000FD13E9 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				9AF5B61E2B0523E400FD13E9 /* Assets.xcassets */,
 				9AF5B6202B0523E400FD13E9 /* LaunchScreen.storyboard */,
 				9AF5B6232B0523E400FD13E9 /* Info.plist */,
-				9AF5B6452B05260000FD13E9 /* Counter.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF5B6462B05260000FD13E9 /* Counter.swift in Sources */,
 				9AF5B61A2B0523E300FD13E9 /* MyViewController.swift in Sources */,
 				9AF5B6162B0523E300FD13E9 /* AppDelegate.swift in Sources */,
 				9AF5B6182B0523E300FD13E9 /* SceneDelegate.swift in Sources */,
@@ -454,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.Counter;
+				PRODUCT_BUNDLE_IDENTIFIER = karinabhtest.Counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.Counter;
+				PRODUCT_BUNDLE_IDENTIFIER = karinabhtest.Counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
